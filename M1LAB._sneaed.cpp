@@ -7,22 +7,15 @@
 using namespace std;
 
 int main() {
-    // This program will simulate an apple orchard.
-    // The owner’s name
-    string name = "Janice Snead";
-    // number of apples owned
+    string owner = "Janice Snead";
     int apples = 100;
-    // price per apple
-    double pricePerApple = 0.25;
-    // calculate the total price of the apples
-    double totalPrice = apples * pricePerApple;
+    double price_per_apple = 0.25;
+    double total_cost = apples * price_per_apple;
 
-    // print all the information about the orchard
-    cout << "Welcome to " << name << "'s apple orchard." << endl;
-    cout << "We have " << apples << " apples in stock." << endl;
-    cout << "Apples are currently $" << pricePerApple << " each." << endl;
-    // Final line, to print totalPrice
-    cout << "If you want them all, that will be $" << totalPrice << endl;
+    cout << "Welcome to " << owner << "’s apple orchard." << endl;
+    cout << "We have " << apples << " apples in stock" << endl;
+    cout << "Apples are currently $" << price_per_apple << " each." << endl;
+    cout << "If you want them all, that will be $" << total_cost << endl;
 
     return 0;
 }
